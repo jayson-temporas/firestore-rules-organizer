@@ -1,6 +1,6 @@
 {
   "name": "firestore-rules-organizer",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Organize firestore rules and split it to different files",
   "main": "src/cls.js",
   "scripts": {
@@ -11,7 +11,11 @@
     "firestore",
     "rules"
   ],
-  "author": "",
+  "author": "Jayson Temporas",
+  "repository": "https://github.com/jayson-temporas/firestore-rules-organizer",
+  "keywords": [
+    "firestore, security, rules, security rules, firestore rules"
+  ],
   "license": "ISC",
   "dependencies": {
     "concat": "^1.0.3"
