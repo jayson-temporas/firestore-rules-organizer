@@ -53,3 +53,23 @@ service cloud.firestore {
   }
 }
 ```
+
+## Configuration
+
+| Option  | Default Value  | Description |
+| :------------ | :--------------- | :----- |
+| rules_folder      | firestore-rules | This is the directory where you can place all your firestore rules |
+| rules_output     | firestore.rules        | The output file of the consolidated rules from your rules folder |
+
+## (Optional) Create a configuration file to override the default values
+
+Create a file called firestore_rules_organizer.config.js at the root of your project.
+Place your desired rules_folder and rules_output values.
+
+```
+module.exports = {
+    rules_folder: "firestore-rules",
+    rules_output: "firestore.rules",
+};
+```
+
