@@ -1,4 +1,12 @@
 # FIRESTORE RULES ORGANIZER
+<p align="center">
+    <a href="https://www.npmjs.com/package/firestore-rules-organizer">
+      <img src="https://badgen.net/npm/dm/firestore-rules-organizer" alt="Downloads">
+    </a>
+    <a href="https://www.npmjs.com/package/firestore-rules-organizer">
+      <img src="https://badgen.net/npm/license/firestore-rules-organizer" alt="License">
+    </a>
+</p>
 
 Helps you organize your firestore rules and split it to different files
 
